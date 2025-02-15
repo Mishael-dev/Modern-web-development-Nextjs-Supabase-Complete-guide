@@ -1,7 +1,6 @@
 ### 1. Run Installation commands 
 run the following commands:
 - nextjs: `pnpx create-next-app@latest <appname>`
-- shadcn-ui: `pnpm dlx shadcn@latest init`
 - supabase: `pnpm add @supabase/ssr @supabase/supabase-js`
 - initialize shadcn-ui: `pnpm dlx shadcn@latest init`
 ### 2. Set up supabase 
@@ -95,3 +94,7 @@ export async function createClient() {
 
 }
 ```
+
+### 5. Initialize supabase cli
+- run this command : `pnpm dlx supabase init`
+
